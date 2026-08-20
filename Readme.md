@@ -12,6 +12,7 @@ machines never had one.
 | **PC85** | 32K, monochrome, BASIC 5.25e plus six PAK ROMs and a Net ROM. The default |
 | **Premium PC85** | The same machine with the Premium video board — colour, attribute RAM, 8 PCG banks — and its own ROM set |
 
+
 ![Project Screenshot](microbee.png)
 
 ## Core features
