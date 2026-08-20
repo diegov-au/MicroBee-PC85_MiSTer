@@ -94,9 +94,6 @@ never select the Premium — but `boot2.rom` is required by both. Without it the
 machine runs perfectly with **nothing legible on screen**: every glyph fetches as
 zero and only the cursor shows.
 
-Quartus builds `output_files/microbee_pc85.rbf` in lowercase, after the project
-revision — **rename it** to `MicroBee-PC85_YYYYMMDD.rbf` when you deploy.
-
 `bootN.rom` files are picked up automatically when the core starts. There is
 nothing to load from the OSD.
 
