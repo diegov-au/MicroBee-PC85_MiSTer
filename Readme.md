@@ -14,7 +14,7 @@ The last of the Standard ROM based MicroBees to be produced in 1985 and introduc
 ## Core features
 
 - **PC85 System Menu** on both models
-- **ROM based software packages** - including Basic, WordBee, Telecom, Calculator, Monitor, Database, Spreadsheets (ROMs required)
+- **PC85/PPC85 based software packages** - including Basic, WordBee, Telecom, Calculator, Monitor, Database, Spreadsheets (ROMs required)
 - **Cassette LOAD** from DGOS `.tap` images at 300 and 1200 baud, with the core
   generating the Kansas City waveform so the machine's own ROM decoder reads it
 - **PCG graphics**, dual fonts, and on the Premium colour and attribute RAM
