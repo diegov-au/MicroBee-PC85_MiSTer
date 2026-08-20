@@ -46,13 +46,13 @@ no renaming, no splitting.
 **PC85** — seven ROMs, all 8K:
 
 ```bash
-cat standard_pc85_a.rom standard_pc85_b.rom standard_pc85_c.rom     standard_pc85_d.rom standard_pc85_e.rom standard_pc85_h.rom     standard_pc85_i.rom > boot0.rom          # 57,344 bytes
+cat standard_pc85_a.rom standard_pc85_b.rom standard_pc85_c.rom standard_pc85_d.rom standard_pc85_e.rom standard_pc85_h.rom standard_pc85_i.rom > boot0.rom          # 57,344 bytes
 ```
 
 **Premium PC85** — nine ROMs; `a`, `f` and `g` are 16K, the rest 8K:
 
 ```bash
-cat premium_pc85_a.rom premium_pc85_b.rom premium_pc85_c.rom     premium_pc85_d.rom premium_pc85_e.rom premium_pc85_f.rom     premium_pc85_g.rom premium_pc85_h.rom premium_pc85_i.rom > boot1.rom
+cat premium_pc85_a.rom premium_pc85_b.rom premium_pc85_c.rom premium_pc85_d.rom premium_pc85_e.rom premium_pc85_f.rom premium_pc85_g.rom premium_pc85_h.rom premium_pc85_i.rom > boot1.rom
                                              # 98,304 bytes
 ```
 
