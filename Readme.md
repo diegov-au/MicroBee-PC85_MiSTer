@@ -7,14 +7,14 @@ Z80 + 6545 CRTC + light-pen keyboard + Z80 PIO + cassette, all in
 Verilog/SystemVerilog, everything in BRAM, one 54.0 MHz PLL. No disk: these
 machines never had one.
 
-![Project Screenshot](microbee.png)
-
 | Model | What it is |
 |---|---|
 | **PC85** | 32K, monochrome, BASIC 5.25e plus six PAK ROMs and a Net ROM. The default |
 | **Premium PC85** | The same machine with the Premium video board — colour, attribute RAM, 8 PCG banks — and its own ROM set |
 
-Working today:
+![Project Screenshot](microbee.png)
+
+## Core features
 
 - **Boots BASIC 5.25e** on both models from one bitstream, switchable in the OSD
 - **Cassette LOAD** from DGOS `.tap` images at 300 and 1200 baud, with the core
