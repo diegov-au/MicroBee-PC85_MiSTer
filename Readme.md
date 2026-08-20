@@ -13,7 +13,8 @@ The last of the Standard ROM based MicroBees to be produced in 1985 and introduc
 
 ## Core features
 
-- **Boots BASIC 5.25e** on both models from one bitstream, switchable in the OSD
+- **PC85 System Menu** on both models
+- **ROM based software packages** - including Basic, WordBee, Telecom, Calculator, Monitor, Database, Spreadsheets (ROMs required)
 - **Cassette LOAD** from DGOS `.tap` images at 300 and 1200 baud, with the core
   generating the Kansas City waveform so the machine's own ROM decoder reads it
 - **PCG graphics**, dual fonts, and on the Premium colour and attribute RAM
@@ -21,20 +22,9 @@ The last of the Standard ROM based MicroBees to be produced in 1985 and introduc
 - **Keyboard** with a symbolic US mapping, or positional via the OSD
 - **Cold Reset**, which clears memory as the power switch did
 
-Not yet: **PAK ROM switching**, so the System Menu, WordBee, Telcom, the
-Calculator and the rest are present in the bundle but not yet reachable. With
-only its BASIC ROMs a real PC85 boots to BASIC too, so what runs today is a
-faithful machine — just one with empty PAK sockets.
-
-Deliberately never: **saving to tape**. LOAD only.
-
-`docs/STATUS.md` records exactly what is verified; `docs/BUGS.md` tracks what is
-known to be wrong.
-
 ## Installing on MiSTer
 
-The core name is **`MicroBee-PC85`**, which is what MiSTer uses to find
-everything.
+The core name is **`MicroBee-PC85`**
 
 **It is deliberately not `MicroBee`.** That name belongs to the original
 four-model disk core, and both cores auto-load `boot0.rom` from their own games
