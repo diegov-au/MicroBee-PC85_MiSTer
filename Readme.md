@@ -102,17 +102,7 @@ SHA1 of every image this core has been verified against.
 
 ## Using it
 
-Both models cold-boot straight to BASIC — there is no disk and nothing to mount:
-
-```
-Applied Technology microbee Colour Basic. Ver 5.25e
-Copyright MS 1985 for MicroWorld Australia
->
-```
-
-**Once PAK switching lands** this is what you will see only with the PAK sockets
-empty; a full bundle will come up in the System Menu instead, with BASIC as one
-entry on it.
+Both models cold-boot straight to the PC85/PPC85 System Menu
 
 ### Cold Reset — when Reset is not enough
 
