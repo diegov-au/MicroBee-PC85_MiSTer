@@ -176,33 +176,6 @@ One gap: no MicroBee key produces `_`, so Shift+`-` does nothing in Symbolic
 mode. Printing `=` instead was the alternative, and a wrong character you do not
 notice is worse than a key that does nothing.
 
-MiSTer's own key remapping cannot substitute for this. It is system-wide rather
-than per-core, and single-key-to-single-key with no macro support, so it cannot
-change shift state — and Shift+`2` → `@` is exactly that.
-
-### If you have a UK keyboard
-
-**Symbolic mode assumes a US layout**, because MiSTer hands cores raw PS/2 scan
-codes and never says what is printed on the keycaps — the core has to guess, and
-it guesses US. Five keys will not match a UK board:
-
-| Your keycap | You get |
-|---|---|
-| Shift+`2` = `"` | `@` |
-| Shift+`'` = `@` | `"` |
-| Shift+`3` = `£` | `#` |
-| `#` / `~` (left of Enter) | `\` / `\|` |
-| `\` / `\|` (left of Z) | nothing |
-
-Everything else is correct. A UK option is straightforward to add — it is one
-more column in the same lookup table — so **open an issue if you want it**. Two
-combinations would stay dead either way, since the MicroBee has neither `£` nor
-`¬`.
-
-For context, this is not unusual: the BBC Micro core hardcodes the *opposite*
-assumption, mapping the ISO-only key left of Z that a US keyboard does not have,
-and leaves its own ASCII-63 digit row unmapped in either direction.
-
 ## Credits and attributions
 
 ### Core development
