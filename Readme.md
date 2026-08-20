@@ -68,9 +68,9 @@ cp character_4k.rom boot2.rom                     # 4,096 bytes
 | `boot1.rom` | Premium PC85: the same plus PAK2 and PAK3, its own set | 98,304 |
 | `boot2.rom` | `character_4k.rom` — the character ROM, shared by both | 4,096 |
 
-**Letter order, not PAK order.** The letters are the ROM designations, and `d`
-is the **Net ROM** — it sits between PAK0 and PAK1, which looks wrong and is
-right. Alphabetical order is the correct order. Do not sort by what the ROM
+**Letter order** The letters are the ROM designations, and `d`
+is the **Net ROM** — it sits between PAK0 and PAK1, which is right. 
+Alphabetical order is the correct order. Do not sort by what the ROM
 does.
 
 **The Premium's `a`, `f` and `g` are 16K and stay whole.** ROM-A is a banked 16K
