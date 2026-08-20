@@ -1,11 +1,7 @@
 # MicroBee PC85 core for MiSTer
 
 An FPGA implementation of the Australian **MicroBee PC85** and **Premium PC85** —
-the 1985/86 ROM-and-cassette machines of the Personal Communicator range.
-
-Z80 + 6545 CRTC + light-pen keyboard + Z80 PIO + cassette, all in
-Verilog/SystemVerilog, everything in BRAM, one 54.0 MHz PLL. No disk: these
-machines never had one.
+The last of the Standard ROM based MicroBees to be produced in 1985 and introduces a new graphical menu system that allows easy selection of built in software packages. The machine uses essentially the same hardware as the earlier 32K Communicator Series III with some software upgrades, additional bundled software packages and a new PAK ROM to provide the PC85 menu functionality.
 
 | Model | What it is |
 |---|---|
