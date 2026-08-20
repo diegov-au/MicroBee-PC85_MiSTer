@@ -13,7 +13,7 @@ machines never had one.
 | **Premium PC85** | The same machine with the Premium video board — colour, attribute RAM, 8 PCG banks — and its own ROM set |
 
 
-![Project Screenshot](microbee.png)
+![Project Screenshot](microbee1.png)
 
 ## Core features
 
